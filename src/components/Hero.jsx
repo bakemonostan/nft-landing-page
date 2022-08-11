@@ -37,7 +37,7 @@ const Hero = () => {
             feature. Simply hold $SHIBS tokens in your wallet and you'll earn
             SHIB.
           </p>
-          <div className='py-8'>
+          <div className='py-8 flex flex-col justify-center items-start'>
             <Button
               icon={Bunny}
               info='buy on pancakeswap'
