@@ -4,7 +4,7 @@ import Menu from '../assets/icon-hamburger.svg';
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between items-center w-[90%] px-8 py-3 mx-auto sm:border-b-[1px] border-[#141230] lg:px-[6rem]'>
+    <nav className='flex justify-between items-center w-[85%] px-6 py-3 mx-auto sm:border-b-[1px] border-[#141230] lg:px-[6rem]'>
       <div className='flex items-center gap-4 font-bold text-white'>
         {/* modile view logo */}
         <img src={Logo} alt='logo' className='w-[40px] sm:hidden' />
