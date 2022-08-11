@@ -2,6 +2,7 @@ import './App.css';
 import DashboardSection from './components/DashboardSection';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Roadmap from './components/Roadmap';
 import Services from './components/Services';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Services />
         <DashboardSection />
+        <Roadmap />
       </main>
     </>
   );
