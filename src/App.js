@@ -1,6 +1,7 @@
 import './App.css';
 import DashboardSection from './components/DashboardSection';
 import Hero from './components/Hero';
+import Info from './components/Info';
 import Navbar from './components/Navbar';
 import Roadmap from './components/Roadmap';
 import Services from './components/Services';
@@ -16,6 +17,7 @@ function App() {
         <Services />
         <DashboardSection />
         <Roadmap />
+        <Info />
       </main>
     </>
   );
