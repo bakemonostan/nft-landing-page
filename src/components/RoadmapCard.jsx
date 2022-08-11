@@ -18,9 +18,9 @@ const RoadmapCard = () => {
         <h2 className='card-title text-white text-2xl capitalize pb-8'>
           Phase 1 - Getting started
         </h2>
-        {goals.map((goal) => {
+        {goals.map((goal, index) => {
           return (
-            <p className='flex text-left items-center gap-3 py-1'>
+            <p className='flex text-left items-center gap-3 py-1' key={index}>
               <span>
                 <img src={Check} alt='' />
               </span>

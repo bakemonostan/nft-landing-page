@@ -55,12 +55,24 @@ const Hero = () => {
       </div>
 
       <div className='flex flex-col justify-center items-center py-[6rem] lg:flex-row'>
-        {mobileSponsors.map((img) => {
-          return <img src={img} alt='/' className='mb-9 w-[130px] lg:hidden' />;
-        })}
-        {desktopSponsors.map((img) => {
+        {mobileSponsors.map((img, index) => {
           return (
-            <img src={img} alt='/' className='mx-6 mb-9 hidden lg:block' />
+            <img
+              src={img}
+              alt='/'
+              className='mb-9 w-[130px] lg:hidden'
+              key={index}
+            />
+          );
+        })}
+        {desktopSponsors.map((img, index) => {
+          return (
+            <img
+              src={img}
+              alt='/'
+              className='mx-6 mb-9 hidden lg:block'
+              key={index}
+            />
           );
         })}
       </div>
