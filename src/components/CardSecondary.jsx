@@ -2,7 +2,7 @@ import Icon from '../assets/wallet.png';
 
 const CardSecondary = () => {
   return (
-    <div className='flex flex-col justify-center items-center py-5 lg:flex-row gap-3'>
+    <div className='flex flex-col justify-center items-center py-5 max-w-[300px] gap-3 lg:flex-row lg:max-w-[500px]'>
       <figure className='py-5 lg:w-72 lg:py-0'>
         <img src={Icon} alt='wallet' />
       </figure>
